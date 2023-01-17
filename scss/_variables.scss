@@ -1,0 +1,42 @@
+:root {
+    --nav: #C7263F;
+    --slide: #F06A70;
+    --botoes-slide: #CC3A46;
+    --link: #0050B3;
+    --footer: #4D4D4D;
+    --texto: #000;
+    --fundo: #FFF;
+
+    --tamanhoTexto: 1rem;
+    --tamanhoTitulo: 2rem;
+}
+
+.dark-mode:root {
+    --nav: #000;
+    --slide: #000;
+    --botoes-slide: #000;
+    --link: #FFF;
+    --footer: #000;
+    --texto: #FFF;
+    --fundo: #000;
+
+    .carousel-indicators > li{
+        width: 12px;
+        height: 12px;
+        border-radius: 10px;
+        margin: 8px !important;
+        border: 1px solid #fff;
+        background-color: #000000;
+    }
+}
+
+.diminuiu:root {
+    --tamanhoTexto: .75rem;
+    --tamanhoTitulo: 1.75rem;
+}
+
+.aumentou:root {
+    --tamanhoTexto: 1.25rem;
+    --tamanhoTitulo: 2.25rem;
+}
+

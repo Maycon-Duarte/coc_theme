@@ -48,4 +48,4 @@ function add_elementor_widget_categories($elements_manager)
 }
 add_action('elementor/elements/categories_registered', 'add_elementor_widget_categories');
 
-//require_once("custom-widgets/my-widgets.php");
+require_once("custom-widgets/my-widgets.php");
